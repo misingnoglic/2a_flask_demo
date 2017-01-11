@@ -1,0 +1,11 @@
+<html>
+	<title>Factors of {{ number }}</title>
+	<body>
+		<h2>The factors of {{ number }} are:</h2>
+		<ul>
+			{% for item in factors %}
+				<li>{{ item }}</li>
+			{% endfor %}
+		</ul>
+	</body>
+</html>
